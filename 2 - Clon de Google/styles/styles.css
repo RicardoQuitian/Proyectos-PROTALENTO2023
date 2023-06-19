@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.Barra {
+background-color:rgb(128, 102, 102);
+display: flex;
+flex-direction:row;
+justify-content:end;
+gap: 30px;
+margin-right: 15px;
+margin-top: 15px;
+}
+ 
+.Box {
+    background-color: white;
+    width:50hv;
+    height:100%;
+    font-size:20px;
+}
+
+a {
+
+    color: black;
+    text-decoration: none;
+}
+
+.prueba{
+    background-color: rgb(105, 26, 26);
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.caja2 {
+background-color: aqua;
+width: 100px;
+height: 100px;
+
+}
+.caja3 {
+    background-color: rgb(2, 7, 7);
+width: 10%;
+height: 10%;
+
+
+}
