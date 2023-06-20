@@ -9,23 +9,23 @@
   display: flex;
   flex-direction:row;
   justify-content: flex-end;
-  gap: 35px;
-  font-size: 25px;
+  gap: 15px;
+  font-size: 15px;
   margin-top: 10px;
   margin-right: 30px;
-  background-color: rgb(82, 14, 14);
+  background-color: rgb(255, 255, 255);
   color: white;
-  height: 70px;
+  height: 150px;
 }
 a {
   text-decoration: none;
   color: black;
 }
- main {background-color: yellow;
+ main {background-color: rgb(255, 255, 255);
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content:space-around ;
+  justify-content:space;
   align-items: center;
   gap: 1px;
 }
@@ -36,15 +36,60 @@ footer{ background-color: black;
 }
 
 #buscar {
-  width: 350px;
-  height: 25px;
+  width: 600px;
+  height: 47px;
   border-radius: 45px 45px 45px 45px;
-  padding-left: 15px ;
+  padding-left: 40px ;
+  
 
 }
 
 img {
-width: 570px;
+width: 450px;
+
+
 
 
 }
+
+#botonera {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 10px;
+  
+}
+
+.letra_boton {
+height: 30px;
+width: 150px;
+border-radius: 5px;
+
+}
+
+
+.caja3 {
+  display: flex;
+  flex-direction:row;
+  justify-content: flex-end;
+  gap: 15px;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-right: 30px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  height: 150px;
+}
+
+.caja4 { display: flex;
+  flex-direction:row;
+  justify-content: flex-end;
+  gap: 15px;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-right: 30px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  height: 150px;}
