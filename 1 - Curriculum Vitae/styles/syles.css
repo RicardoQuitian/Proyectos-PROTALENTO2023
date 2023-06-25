@@ -1,12 +1,77 @@
 * {
-    margin: 20;
-    padding: 10 ;
-    font-size: 30px;
-    background-color: antiquewhite;
-
+    margin: 0;
+    padding: 0 ;  
+    
 }
+
+
+.Botones {
+    display: flex;  
+    justify-content: center;
+    
+}
+
+
 img {
-width: 130px;
-height: 170px;
+    width: 90px;
+    height: 110px;
 }
 
+.img-loglinkedin {
+
+    width: 50px;
+    height: 20px;
+}
+
+.img-boton{
+    width: 60px;
+    height: 30px;
+    border: dashed 1px  black;
+    padding: 4px;
+}
+.img-boton-2{
+    width: 60px;
+    height: 30px;
+    border: dashed 1px  black; 
+    padding: 4px;   
+}
+
+.boton1 {
+margin:10px;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Skill {
+    margin: 22px;
+    
+
+    
+}
+
+.center-perfil {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.pie-pagina {
+    display: flex;
+    padding: 4px;
+    border-top: solid  black;
+    justify-content: space-around;
+}
+
+body {
+    background-image: url("https://images.unsplash.com/photo-1508615039623-a25605d2b022?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
