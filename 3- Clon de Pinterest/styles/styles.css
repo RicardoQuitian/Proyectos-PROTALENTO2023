@@ -208,4 +208,7 @@ input {
    
 }
 
-  
+
+@media (max-width: 1000px) {
+    body {background-color: #e93434;}
+    }
