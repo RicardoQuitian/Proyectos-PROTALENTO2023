@@ -1,0 +1,40 @@
+.chico-azul {  
+    background-color: #A7E4F2;
+    padding: 70px;
+    margin: 15px;}
+
+.grande-azul { 
+    background-color: #A7E4F2;
+    padding: 120px;
+    margin: 15px}
+
+.container {
+    display: flex;
+    justify-content: space-around}
+
+.mediano-azul-margin-derecho {
+    padding-top: 5vw;
+    padding-left: 15vw;
+    padding-bottom: 6vw;
+    padding-right: 30vw;
+    background-color: #A7E4F2;}
+
+.mediano-azul {
+    padding-top: 5vw;
+    padding-left: 15vw;
+    padding-bottom: 6vw;
+    padding-right: 35vw;
+    background-color: #A7E4F2;}
+.mediano-azul-margin-derecho-margin-abajo {
+    background-color: #A7E4F2;
+    padding-top: 5vw;
+    padding-left: 15vw;
+    padding-bottom: 6vw;
+    padding-right: 30vw;
+    background-color: #A7E4F2;}
+.mediano-azul-margin-abajo { 
+    background-color: #A7E4F2;
+    padding-top: 5vw;
+    padding-left: 15vw;
+    padding-bottom: 6vw;
+    padding-right: 35vw;}
